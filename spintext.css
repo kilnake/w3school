@@ -1,0 +1,24 @@
+#spin {
+    color: inherit;
+    background:#a7e8c8;
+}
+
+#spin:after {
+  content:"";
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0%{ 
+    content: "Microsoft";
+    }
+  33% { 
+    content: "Azure";
+      }
+  66% {
+    content: "On-Premise";
+      }
+  100% {
+        content: "Hybrid";
+    }
+}
